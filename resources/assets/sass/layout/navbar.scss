@@ -1,0 +1,41 @@
+.main-header {
+	margin-top: 30px;
+}
+
+.main-nav--container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a.logo--main-nav {
+	font-size: 2rem;
+	font-family: $primary-font;
+	font-weight: 300;
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+
+}
+
+.main-nav {
+
+	.main-nav--links {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	a {
+		font-family: $primary-font;
+		font-weight: 300;
+		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+		}
+		// &:last-child {
+		// 	margin-left: 40px;
+		// }
+	}
+}

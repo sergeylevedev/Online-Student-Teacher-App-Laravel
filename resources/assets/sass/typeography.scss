@@ -1,0 +1,27 @@
+html, body {
+	font-size: 16px;
+}
+
+h1 {
+	font-family: $primary-font;
+}
+
+.blue-text  {
+	color: $blue;
+}
+
+.white-text {
+	color: $white;
+}
+
+.hover-white:hover {
+	color: $white;
+}
+
+.hover-blue:hover {
+	color: $blue;
+}
+
+.hover-grey:hover {
+	color: $grey;
+}
